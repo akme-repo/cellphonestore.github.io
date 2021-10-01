@@ -1,0 +1,131 @@
+.container
+{
+    position: relative;
+    margin: 60px;
+}
+
+.navbar
+{
+    display: flex;
+    background-color: #003d5c;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar a
+{
+    text-decoration: none;
+    color: white;
+    float: left;
+    text-align: center;
+    height: 100%;
+    margin-left: 5px;
+    padding-right: 20px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+    position: relative;
+    bottom: 10px;
+}
+
+.navbar a:hover
+{
+    background-color: rgb(73, 173, 173);
+}
+
+form
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+form input
+{
+    font-size: 14px;
+    margin: 0 10px 0 10px;
+    padding: 0;
+    width: 250px;
+    height: 35px;
+}
+
+
+h1
+{
+    margin: 0;
+    text-align: center;
+    background-color: #006498;
+    padding: 30px;
+    font-size: 60px;
+}
+
+body
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: century-gothic;
+    background-color: #65caff;
+    color: white;
+}
+
+p
+{
+    margin: 0 50px;
+    font-size: 25px;
+}
+
+.table-container
+{
+    font-size: 25px;
+}
+
+table
+{
+    display: flex;
+    justify-content: center;
+}
+
+.table-container h4
+{
+    font-size: 35px;
+    text-align: center;
+}
+
+th, td
+{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th
+{
+    background-color: #006498;
+}
+
+tr:hover
+{
+    background-color:rgb(89, 235, 235);
+}
+
+img
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.complex
+{
+    float: left;
+    position: relative;
+    left: 15%;
+    margin: 10px;
+}
+
+.links_contacts
+{
+    font-size: 30px;
+    margin-left: 25%;
+}
